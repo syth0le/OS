@@ -1,14 +1,10 @@
-[10:58:51 30/09/2021] - Log file was created!
-[10:58:51 30/09/2021] - NEW2 archive was created!
-[10:58:51 30/09/2021] - smt2 archive was created!
-[10:58:51 30/09/2021] - smth archive was created!
-[10:59:17 30/09/2021] - NEW2 archive was created!
-[10:59:17 30/09/2021] - smt2 archive was created!
-[10:59:17 30/09/2021] - smth archive was created!
-[10:59:36 30/09/2021] - NEW2 archive was created!
-[10:59:36 30/09/2021] - smt2 archive was created!
-[10:59:36 30/09/2021] - smth archive was created!
-[10:59:45 30/09/2021] - 3 files was skipped during dir scan.
-[11:00:22 30/09/2021] - NEW2.zip archive was created!
-[11:00:22 30/09/2021] - smt2.zip archive was created!
-[11:00:22 30/09/2021] - smth.zip archive was created!
+[11:21:17 30/09/2021] - Log file was created!
+[11:21:17 30/09/2021] - C:\coding\OS\schedulle\example_folder\NEW2.zip archive was created!
+[11:21:17 30/09/2021] - C:\coding\OS\schedulle\example_folder\smt2.zip archive was created!
+[11:21:17 30/09/2021] - C:\coding\OS\schedulle\example_folder\smth.zip archive was created!
+[11:22:01 30/09/2021] - C:\coding\OS\schedulle\example_folder\NEW2.zip archive was created!
+[11:22:01 30/09/2021] - C:\coding\OS\schedulle\example_folder\smt2.zip archive was created!
+[11:22:01 30/09/2021] - C:\coding\OS\schedulle\example_folder\smth.zip archive was created!
+[11:22:37 30/09/2021] - 3 files was skipped during dir scan.
+[11:23:08 30/09/2021] - C:\coding\OS\schedulle\example_folder\smth2.zip archive was created!
+[11:23:08 30/09/2021] - 2 files was skipped during dir scan.

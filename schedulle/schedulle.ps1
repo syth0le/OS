@@ -1,6 +1,6 @@
 $path = "C:\coding\OS\schedulle\example_folder"
 $path_source = "C:\coding\OS\schedulle"
-$PathInfo = Get-ChildItem -Path $path
+$PathInfo = Get-ChildItem -Path $path -exclude *.zip
 
 
 function GetDate () {
@@ -8,17 +8,7 @@ function GetDate () {
     return "[$date]"
 }
 
-
-function ZipFilesNot( $zipfilename, $sourcedir )
-{
-   Add-Type -Assembly System.IO.Compression.FileSystem -OutputType .zip
-   $compressionLevel = [System.IO.Compression.CompressionLevel]::Optimal
-   [System.IO.Compression.ZipFile]::CreateFromDirectory($sourcedir,
-        $zipfilename, $compressionLevel, $false)
-}
-
 function ZipFiles( $filename, $sourcedir) {
-    # Compress-Archive -Path $sourcedir -DestinationPath "$path\$filename.zip"
     Compress-Archive -Path $sourcedir -DestinationPath "$filename.zip"
 }
 
@@ -30,15 +20,15 @@ function LogFile () {
 }
 
 function Main () {
+#     Write-Output $PathInfo
     LogFile 
     $accumulator = 0
     foreach ($file in $PathInfo) {
         $date = GetDate
-        if ([System.IO.File]::Exists("$path_source\$file.zip")) {
+        if ([System.IO.File]::Exists("$file.zip")) {
             $accumulator++
-            # Add-Content log.txt -value "$date - $file archive already created!"
         } else {
-            ZipFiles $file $path 
+            ZipFiles $file $path
             Add-Content log.txt -value "$date - $file.zip archive was created!"
         }
     }
