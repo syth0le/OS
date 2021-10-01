@@ -5,3 +5,17 @@
 [14:10:04 01/10/2021] - C:\coding\OS\schedulle\example_folder\new3.zip archive was created!
 [14:10:15 01/10/2021] - 3 files was skipped during dir scan.
 [14:10:28 01/10/2021] - Cannot find path 'C:\coding\OS\schedulle\example_folder\smt13412' because it does not exist.
+[22:32:53 01/10/2021] - Exception calling "CreateFromDirectory" with "2" argument(s): "The path is not of a legal form."
+[22:33:16 01/10/2021] - Exception calling "CreateFromDirectory" with "2" argument(s): "The path is not of a legal form."
+[22:33:32 01/10/2021] - C:\coding\OS\schedulle\example_folder\new1.zip archive was created!
+[22:33:32 01/10/2021] - C:\coding\OS\schedulle\example_folder\new2.zip archive was created!
+[22:33:32 01/10/2021] - C:\coding\OS\schedulle\example_folder\new3.zip archive was created!
+[22:34:48 01/10/2021] - Exception calling "CreateFromDirectory" with "2" argument(s): "Access to the path 'C:\coding\OS\schedulle\example_folder\new1' is denied."
+[22:36:02 01/10/2021] - Exception calling "CreateFromDirectory" with "2" argument(s): "Access to the path 'C:\coding\OS\schedulle\example_folder\new1' is denied."
+[22:36:21 01/10/2021] - Exception calling "CreateFromDirectory" with "2" argument(s): "Access to the path 'C:\coding\OS\schedulle\example_folder\new1' is denied."
+[22:37:08 01/10/2021] - Exception calling "CreateFromDirectory" with "2" argument(s): "The given path's format is not supported."
+[22:38:38 01/10/2021] - Exception calling "CreateFromDirectory" with "2" argument(s): "Access to the path 'C:\coding\OS\schedulle\example_folder\new1' is denied."
+[22:40:43 01/10/2021] - C:\coding\OS\schedulle\example_folder\new1.zip archive was created!
+[22:40:43 01/10/2021] - C:\coding\OS\schedulle\example_folder\new2.zip archive was created!
+[22:40:43 01/10/2021] - C:\coding\OS\schedulle\example_folder\new3.zip archive was created!
+[22:41:17 01/10/2021] - 3 files was skipped during dir scan.
