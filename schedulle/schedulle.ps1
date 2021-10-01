@@ -1,7 +1,12 @@
-$path = "C:\coding\OS\schedulle\example_folder"
-$path_source = "C:\coding\OS\schedulle"
-$PathInfo = Get-ChildItem -Path $path -exclude *.zip
+Param (
+[Parameter (Mandatory=$true, Position=1)]
+[string]$path
+)
 
+function GetCurretnPath ($filename) {
+    $filebase = Join-Path $PSScriptRoot $filename
+    return $filebase
+}
 
 function GetDate () {
     $date = Get-Date -Format "HH:mm:ss dd/MM/yyyy"
@@ -14,14 +19,16 @@ function ZipFiles( $filename, $sourcedir) {
 
 function LogFile () {
     $date = GetDate
-    if ( -Not [System.IO.File]::Exists("$path_source\log.txt")) {
+    $curPath = GetCurretnPath "log.txt"
+    Write-Output $curPath
+    if ( -Not [System.IO.File]::Exists($curPath)) {
         New-Item -Path . -Name "log.txt" -ItemType "file" -Value "$date - Log file was created!`r`n"
     }
 }
 
 function Main () {
-#     Write-Output $PathInfo
     LogFile 
+    $PathInfo = Get-ChildItem -Path $path -exclude *.zip
     $accumulator = 0
     foreach ($file in $PathInfo) {
         $date = GetDate

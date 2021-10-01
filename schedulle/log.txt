@@ -1,10 +1,19 @@
-[11:21:17 30/09/2021] - Log file was created!
-[11:21:17 30/09/2021] - C:\coding\OS\schedulle\example_folder\NEW2.zip archive was created!
-[11:21:17 30/09/2021] - C:\coding\OS\schedulle\example_folder\smt2.zip archive was created!
-[11:21:17 30/09/2021] - C:\coding\OS\schedulle\example_folder\smth.zip archive was created!
-[11:22:01 30/09/2021] - C:\coding\OS\schedulle\example_folder\NEW2.zip archive was created!
-[11:22:01 30/09/2021] - C:\coding\OS\schedulle\example_folder\smt2.zip archive was created!
-[11:22:01 30/09/2021] - C:\coding\OS\schedulle\example_folder\smth.zip archive was created!
-[11:22:37 30/09/2021] - 3 files was skipped during dir scan.
-[11:23:08 30/09/2021] - C:\coding\OS\schedulle\example_folder\smth2.zip archive was created!
-[11:23:08 30/09/2021] - 2 files was skipped during dir scan.
+[11:02:01 01/10/2021] - Log file was created!
+[11:02:01 01/10/2021] - C:\coding\OS\schedulle\example_folder\NEW2.zip archive was created!
+[11:02:01 01/10/2021] - C:\coding\OS\schedulle\example_folder\smt2.zip archive was created!
+[11:02:01 01/10/2021] - C:\coding\OS\schedulle\example_folder\smth2.zip archive was created!
+[11:02:51 01/10/2021] - 1 files was skipped during dir scan.
+[11:03:48 01/10/2021] - 1 files was skipped during dir scan.
+[11:04:12 01/10/2021] - C:\coding\OS\lectures\1_07-september.md.zip archive was created!
+[11:04:13 01/10/2021] - C:\coding\OS\lectures\1_14-september.md.zip archive was created!
+[11:04:13 01/10/2021] - C:\coding\OS\lectures\1_21-september.md.zip archive was created!
+[11:04:13 01/10/2021] - C:\coding\OS\lectures\1_28-september.md.zip archive was created!
+[11:04:13 01/10/2021] - C:\coding\OS\lectures\2_05-october.md.zip archive was created!
+[11:04:13 01/10/2021] - C:\coding\OS\lectures\2_12-october.md.zip archive was created!
+[11:04:14 01/10/2021] - C:\coding\OS\lectures\2_19-october.md.zip archive was created!
+[11:04:14 01/10/2021] - C:\coding\OS\lectures\2_26-october.md.zip archive was created!
+[11:04:14 01/10/2021] - C:\coding\OS\lectures\3_02-november.md.zip archive was created!
+[11:04:14 01/10/2021] - C:\coding\OS\lectures\3_09-november.md.zip archive was created!
+[11:04:15 01/10/2021] - C:\coding\OS\lectures\3_16-november.md.zip archive was created!
+[11:04:15 01/10/2021] - C:\coding\OS\lectures\3_23-november.md.zip archive was created!
+[11:04:15 01/10/2021] - C:\coding\OS\lectures\3_30-november.md.zip archive was created!
