@@ -20,7 +20,6 @@ function ZipFiles( $filename, $sourcedir) {
 function LogFile () {
     $date = GetDate
     $curPath = GetCurretnPath "log.txt"
-    Write-Output $curPath
     if ( -Not [System.IO.File]::Exists($curPath)) {
         New-Item -Path . -Name "log.txt" -ItemType "file" -Value "$date - Log file was created!`r`n"
     }
@@ -28,7 +27,7 @@ function LogFile () {
 
 function Main () {
     LogFile 
-    $PathInfo = Get-ChildItem -Path $path -exclude *.zip
+    $PathInfo = Get-ChildItem -Path $path -exclude *.zip -ErrorAction Stop
     $accumulator = 0
     foreach ($file in $PathInfo) {
         $date = GetDate
@@ -44,4 +43,11 @@ function Main () {
     }
 }
 
-Main
+try {
+    Main -ErrorAction
+}
+catch {
+    $date = GetDate
+    $err = $Error[0]
+    Add-Content log.txt -value "$date - $err"
+}
