@@ -8,7 +8,7 @@ log() {
  if [ $# -gt 1 ]; then
    echo "Incorrect parameters passed"
  else
-   if [[ ! -f "$LOG_FILE_PATH" ]]; then
+   if [ ! -f "$LOG_FILE_PATH" ]; then
      echo "touch $LOG_FILE_PATH"
      echo "[$(getCurrentDate)] - Log file has been created because it is not existed before" >> "$LOG_FILE_PATH"
      echo "[$(getCurrentDate)] - $1" >> "$LOG_FILE_PATH"
