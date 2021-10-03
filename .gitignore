@@ -128,3 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 *.zip
+Документация по установке и настройке NFS.pdf
+*.docx
+Чередниченко_Д_NFS.pdf
